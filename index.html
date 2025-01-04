@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Question</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Do you love me?</h1>
+        <img src="hehe.gif" alt="Love GIF" class="gif">
+        <div>
+            <button onclick="showMessage('yes')">YES</button>
+
+            <div id="textField" style="display: none;">
+                YEAYYYY!!! I LOVE YOU TOO!!!
+            </div>
+
+            <img id="loveGif" src="yeay.gif" alt="Love GIF" style="display: none; margin-top: 5px;">
+            <img id="sadGif" src="sad.gif" alt="Sad GIF" style="display: none; margin-top: 5px;">
+
+            <button id="noButton" onclick="moveButton()">NO</button>
+
+        </div>
+    </div>
+    <script src="question.js"></script>
+</body>
+
+</html>
